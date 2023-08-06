@@ -1,0 +1,9 @@
+// https://www.jotform.com/form-templates/admissions-form
+
+<?php
+$user_name = "codemanbd";
+$user_email = "sodemanbd@gail.com";
+
+echo $user_name. "<br>" .$user_email; // . diya concate korse
+
+?>
