@@ -1,17 +1,13 @@
 <?php
 
 // --------------------- name data ---------------------------
-echo"First Name: " . $_POST['user_first_name'];
-echo "<br>";
-echo"Middle Name: " . $_POST['user_middle_name'];
-echo "<br>";
-echo "Last Name: " . $_POST['user_last_name'];
-
+echo"User Name: " . $_POST['user_first_name'] . " " . $_POST['user_middle_name']. " " .$_POST['user_last_name'];
 echo "<br>";
 // ---------------------------- Birth day ------------------------------
-echo"Birthday Month: " . $_POST['user_birthday_month'];
-echo"Birthday Date: " . $_POST['user_birthday_date'];
-echo"Birthday Year: " . $_POST['user_birthday_year'];
+echo"Birthday: " . $_POST['user_birthday_month']."/".  $_POST['user_birthday_date'] ."/". $_POST['user_birthday_year'];
+echo "<br>";
+// ------------------------ gender ---------------------
+echo"Gender: " . $_POST['gender'];
 echo "<br>";
 
 //----------------------phone --------------------------
@@ -34,13 +30,15 @@ echo "<br>";
 echo"Enter your city: " .  $_POST['user_city'];
 echo "<br>";
 
-// --------------------Emergency Contact --------------------------
-// first name
-echo"Enter you Fast name: " .  $_POST['user_emergency_first_name'];
+echo"State / Province: " .  $_POST['user_state'];
 echo "<br>";
 
-// Last Name
-echo"Enter you Last name: " .  $_POST['user_emergency_last_name'];
+echo"Zip Code: " .  $_POST['user_zip'];
+echo "<br>";
+
+// --------------------Emergency Contact --------------------------
+// first name
+echo"Name: " .  $_POST['user_emergency_first_name']. " " . $_POST['user_emergency_last_name'];
 echo "<br>";
 // user_relationship
 echo"Enter your relationship: " .  $_POST['user_relationship'];
@@ -52,10 +50,7 @@ echo "<br>";
 echo"Enter emergency email: " .  $_POST['user_emergency_email'];
 echo "<br>";
 // Do you speak any languages other than English?
-echo"Do you speak any languages other than English: " .  $_POST['Yes'];
-echo "<br>";
-
-echo"Do you speak any languages other than English: " .  $_POST['No'];
+echo"Do you speak any languages other than English: " .  $_POST['language'];
 echo "<br>";
 
 ?>

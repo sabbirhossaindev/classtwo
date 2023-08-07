@@ -31,11 +31,10 @@
         <input type="text" name="user_birthday_year" placeholder="year name"><br>
 
         <h3>Gender</h3>
-        <input type="checkbox" id="male" name="male" value="male">
-        <label for="male">male</label><br>
-
-        <input type="checkbox" id="female" name="female" value="female">
-        <label for="female">female</label><br>
+        <input type="radio" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" value="female">
+        <label for="female">Female</label><br>
 
         <h4>Of which country are you a citizen?</h4>
         <select id="country_citizen">
@@ -87,9 +86,9 @@
         <input type="email" name="user_emergency_email" placeholder="example@example.com"><br>
 
         <h4>Do you speak any languages other than English?</h4>
-        <input type="checkbox" id="Yes" name="Yes" value="Yes">
+        <input type="radio" name="language" value="Yes">
         <label for="Yes">Yes</label><br>
-        <input type="checkbox" id="No" name="No" value="No">
+        <input type="radio" name="language" value="No">
         <label for="No">No</label><br>
         <br>
         <br>
