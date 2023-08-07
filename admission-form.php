@@ -37,7 +37,7 @@
         <label for="female">Female</label><br>
 
         <h4>Of which country are you a citizen?</h4>
-        <select id="country_citizen">
+        <select name="country_citizen">
             <option value="Bangladesh" selected>Bangladesh</option>
             <option value="India">India</option>
             <option value="London">London</option>
@@ -67,7 +67,7 @@
         <input type="text" name="user_state" placeholder="enter you state"><br>
 
         <label for="user_zip">Postal / Zip Code</label><br>
-        <input type="number" name="user_zip" placeholder="enter your zip code"><br>
+        <input type="text" name="user_zip" placeholder="enter your zip code"><br>
 
         <h3>Emergency Contact</h3>
         <label for="user_emergency_first_name">First name</label><br>
@@ -90,6 +90,7 @@
         <label for="Yes">Yes</label><br>
         <input type="radio" name="language" value="No">
         <label for="No">No</label><br>
+
         <br>
         <br>
         <input class="" type="submit" value="Submit">

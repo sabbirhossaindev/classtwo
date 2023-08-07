@@ -10,6 +10,18 @@ echo "<br>";
 echo"Gender: " . $_POST['gender'];
 echo "<br>";
 
+// --------------------------Of which country are you a citizen? -------------------------
+$option = isset($_POST['country_citizen']) ? $_POST['country_citizen'] : false;
+//    if ($option) {
+//       echo htmlentities($_POST['country_citizen'], ENT_QUOTES, "UTF-8");
+//    } else {
+//      echo "task option is required";
+//      exit; 
+//    }
+   
+echo"which country are you a citizen: " . $_POST['country_citizen'];
+echo "<br>";
+
 //----------------------phone --------------------------
 echo"Phone Number: " . $_POST['user_phone_number'];
 echo "<br>";
