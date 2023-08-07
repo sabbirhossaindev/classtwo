@@ -9,9 +9,7 @@
 
 <body>
     <h2>Admission From by Freelancer Sabbir.</h2>
-
-    <form action="submit-from.php" method="POST">
-
+    <form action="submit-form.php" method="POST">
         <h3>Name Field</h3>
         <label for="user_first_name">First name</label><br>
         <input type="text" name="user_first_name" placeholder="first name"><br>
@@ -50,7 +48,6 @@
             <option value="Argentina">Argentina</option>
         </select> <br>
         <br>
-
         <label for="user_phone_number">Phone Number</label><br>
         <input type="text" name="user_phone_number" placeholder="enter number"><br>
         <br>
@@ -92,10 +89,8 @@
         <h4>Do you speak any languages other than English?</h4>
         <input type="checkbox" id="Yes" name="Yes" value="Yes">
         <label for="Yes">Yes</label><br>
-
         <input type="checkbox" id="No" name="No" value="No">
         <label for="No">No</label><br>
-
         <br>
         <br>
         <input class="" type="submit" value="Submit">
@@ -103,7 +98,3 @@
 </body>
 
 </html>
-
-<!-- Month name
-    
-    <label for="month_name">Month name</label><br> -->
