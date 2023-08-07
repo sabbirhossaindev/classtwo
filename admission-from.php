@@ -70,6 +70,32 @@
         <label for="user_state">State / Province</label><br>
         <input type="text" name="user_state" placeholder="enter you state"><br>
 
+        <label for="user_zip">Postal / Zip Code</label><br>
+        <input type="number" name="user_zip" placeholder="enter your zip code"><br>
+
+        <h3>Emergency Contact</h3>
+        <label for="user_emergency_first_name">First name</label><br>
+        <input type="text" name="user_emergency_first_name" placeholder="first name"><br>
+
+        <label for="user_emergency_last_name">Last name</label><br>
+        <input type="text" name="user_emergency_last_name" placeholder="last name"><br>
+
+        <label for="user_relationship">Relationship</label><br>
+        <input type="text" name="user_relationship" placeholder="last name"><br>
+
+        <label for="user_emergency_phone_number">Phone Number</label><br>
+        <input type="text" name="user_emergency_phone_number" placeholder="enter number"><br>
+
+        <label for="user_emergency_email">Email</label><br>
+        <input type="email" name="user_emergency_email" placeholder="example@example.com"><br>
+
+        <h4>Do you speak any languages other than English?</h4>
+        <input type="checkbox" id="Yes" name="Yes" value="Yes">
+        <label for="Yes">Yes</label><br>
+
+        <input type="checkbox" id="No" name="No" value="No">
+        <label for="No">No</label><br>
+
         <br>
         <br>
         <input class="" type="submit" value="Submit">
