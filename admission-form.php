@@ -33,7 +33,7 @@
     <h2 class='admission mt-3'>Admission From by <span class="sabbir">Freelancer Sabbir</span>.</h2>
     <div class="row justify-content-center">
         <form action="submit-form.php" method="POST">
-            <h3 class="mt-3 my-2">Name Field</h3>
+            <h3 class="mt-3 my-2">Name & Password Field</h3>
 
             <label for="user_first_name">First name</label><br>
             <input type="text" name="user_first_name" placeholder="first name"><br>
@@ -43,6 +43,10 @@
 
             <label for="user_last_name">Last name</label><br>
             <input type="text" name="user_last_name" placeholder="last name"><br>
+
+            <label for="user_password">Password</label><br>
+            <input type="password" name="user_password" placeholder="enter your password"><br>
+
 
             <h4 class="mt-3 my-2">Birthday Field</h4>
 

@@ -3,6 +3,9 @@
 // --------------------- name data ---------------------------
 echo"User Name: " . $_POST['user_first_name'] . " " . $_POST['user_middle_name']. " " .$_POST['user_last_name'];
 echo "<br>";
+
+echo"User Password: " . $_POST['user_password'];
+echo "<br>";
 // ---------------------------- Birth day ------------------------------
 echo"Birthday: " . $_POST['user_birthday_month']."/".  $_POST['user_birthday_date'] ."/". $_POST['user_birthday_year'];
 echo "<br>";
